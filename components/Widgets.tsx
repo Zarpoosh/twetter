@@ -12,6 +12,8 @@ function Widgets() {
 
   return (
     <div className="px-2 mt-2  mx-3 col-span-2 hidden lg:inline">
+      <div className="fixed">
+
       {/* search box */}
       <div className="flex items-center  space-x-2 bg-gray-100 p-3 rounded-full my-2">
         <SearchIcon className="h-5 w-5 text-gray-400" />
@@ -27,6 +29,7 @@ function Widgets() {
         screenName="minicode"
         options={{height:2000}}
         />
+      </div>
     </div>
   );
 }

@@ -53,7 +53,7 @@ function Tweet(prop) {
     }
   };
   return (
-    <div className="flex flex-col space-x-3 border-y p-5 border-gary-100">
+    <div className="flex flex-col space-x-3 border p-5 border-gary-100">
       <div className="flex space-x-3">
         <img className="h-10 w-10 rounded-full" src={logo.src} alt="logo" />
 
