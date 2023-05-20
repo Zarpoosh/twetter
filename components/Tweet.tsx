@@ -7,15 +7,7 @@ import { useState } from "react";
 import { FaRetweet } from "react-icons/fa";
 import { AiFillHeart } from "react-icons/ai";
 
-import {
-  ChatAlt2Icon,
-  HeartIcon,
-  ShareIcon,
-  SwitchHorizontalIcon,
-  UploadIcon,
-} from "@heroicons/react/outline";
-
-
+import { ChatAlt2Icon, ShareIcon } from "@heroicons/react/outline";
 
 function Tweet(prop) {
   // btn like
@@ -76,9 +68,7 @@ function Tweet(prop) {
       </div>
       {/* icons */}
       <div className="flex justify-between mt-5">
-        <div
-          className="flex flex-nowrap items-center cursor-pointer space-x-3 text-gray-400"
-        >
+        <div className="flex flex-nowrap items-center cursor-pointer space-x-3 text-gray-400">
           <ChatAlt2Icon className="h-5 w-5  space-x-3 items-center text-gray-400" />
           65
         </div>
