@@ -17,3 +17,4 @@ function SidebarRows({ Icon, title }: Props) {
 }
 
 export default SidebarRows;
+
